@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Changa:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "dubai";
+    src: url('/fonts/DubaiW23-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.skills{
+    
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    // border: 3px solid white;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.div_img{
+    max-width: 50%;
+    height: auto;
+    overflow: hidden;
+    object-fit: contain;
+    // border: 3px solid rgb(44, 237, 255);
+    position: absolute;
+   
+}
+
+
+.div_skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 17PX;
+    color: rgba(191, 191, 191, 1);
+    cursor: pointer;
+    position: absolute;
+    
+}
+

@@ -1,0 +1,35 @@
+.sliderContainer{
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    margin-bottom: 15vw;
+    color: white;
+    // background-color: rgb(118, 118, 29);
+    transform: rotate(8deg);
+}
+.slider{
+    position: relative;
+    height: 8rem;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgb(118, 118, 29);
+}
+.slider p{
+    margin: 0px;
+    font-size: 10vw;
+    font-weight: 500;
+    height: auto;
+    width: 100%;
+    
+    filter: drop-shadow(5px 5px 10px #000000);
+
+}
+.slider p:nth-of-type(2) {
+    position: absolute;
+    left:100%;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Changa:wght@400;500;600;700&family=Allison&display=swap');
+
+@font-face {
+    font-family: "dubai";
+    src: url('/fonts/DubaiW23-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.works {
+    color: #00F0FF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-size: 6.5vw;
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    z-index: 15;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+
+}
+
+.box {
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    /* margin: 15rem; */
+    /* margin-left: 52rem; */
+    margin-right: -75rem;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px 0 0 16px;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    // height: auto;
+    // position: absolute;
+
+}
+
+.items {
+    display: flex;
+    // // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+
+    width: 13vw;
+    height: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-size: cover;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.container:hover .items {
+    transform: scale(1.1);
+    
+}
+
+
+
+.textline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 203rem; */
+    color: white;
+    width: 45%;
+    height: 90vh;
+    /* position: relative; */
+    /* align-content: flex-start; */
+
+
+}
+
+.line {
+    color: white;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    border: 1px #D2D2D2 solid;
+    width: 33vw;
+    display: flex;
+    border-radius: 5px;
+    /* left: 26rem; */
+    bottom: 3rem;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    font-size: 1rem;
+    padding: 0rem 3rem;
+    top: 4rem;
+
+    color: #ebebeb;
+
+}
+
+.txt {
+    font-family: 'Changa', sans-serif;
+}
+
+.tt {
+    font-family: 'Allison', cursive;
+}
