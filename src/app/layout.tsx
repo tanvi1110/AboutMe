@@ -1,3 +1,5 @@
+"use client"
+
 import Head from 'next/head'
 import './globals.css'
 import Sidebar from "@/components/Sidebar/Sidebar"
