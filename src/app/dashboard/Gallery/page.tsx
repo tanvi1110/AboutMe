@@ -74,7 +74,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g3-min.png"}
+                  src={"/graphics/g3-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
