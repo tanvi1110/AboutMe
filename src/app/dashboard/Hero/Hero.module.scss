@@ -1,13 +1,13 @@
 @font-face {
   font-family: "baloo";
-  src: url('/Baloo.ttf') format("truetype");
+  src: url('/assets/fonts/Baloo.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "quantum";
-  src: url('/Quantum.otf');
+  src: url('/assets/fonts/Quantum.otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -66,6 +66,8 @@
   text-shadow: 3px 3px 10px rgb(0, 0, 0);      
   // margin-bottom: 5px;
   color: #00F0FF;
+  font-family: "quantum", sans-serif;
+  font-size: 70.67px;
 
 }
 
@@ -96,11 +98,7 @@
   font-size: 22.18px;
 }
 
-.heading {
-  font-family: "quantum";
-  font-size: 70.67px;
 
-}
 
 
 .btn_lm {
