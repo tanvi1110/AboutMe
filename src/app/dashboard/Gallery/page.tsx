@@ -52,7 +52,7 @@ const Gallery = () => {
               <div className={styles["child"]}>
                 <Image
 
-                  src={"/graphics/g1.jpg"}
+                  src={"/graphics/g1-min.jpg"}
                   alt=''
                   height={100}
                   width={100}
@@ -63,7 +63,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g2.jpg"}
+                  src={"/graphics/g2-min.jpg"}
                   alt=''
                   height={100}
                   width={100}
@@ -74,7 +74,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g3.png"}
+                  src={"/graphics/g3-min.png"}
                   alt=''
                   height={600}
                   width={400}
@@ -85,7 +85,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g4.jpg"}
+                  src={"/graphics/g4-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
@@ -96,7 +96,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g5.jpg"}
+                  src={"/graphics/g5-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
@@ -107,7 +107,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g6.jpg"}
+                  src={"/graphics/g6-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
@@ -118,7 +118,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g7.jpg"}
+                  src={"/graphics/g7-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
@@ -129,7 +129,7 @@ const Gallery = () => {
             <div className={styles["img_content"]}>
               <div className={styles["child"]}>
                 <Image
-                  src={"/graphics/g8.jpg"}
+                  src={"/graphics/g8-min.jpg"}
                   alt=''
                   height={600}
                   width={400}
