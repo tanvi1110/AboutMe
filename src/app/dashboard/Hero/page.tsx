@@ -67,7 +67,7 @@ const Hero = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="1000">
           <Image
-            className="bg-cover overflow-y-auto bg-center"
+            className={styles["img_right"]}
             alt=''
             width={625}
             height={642}

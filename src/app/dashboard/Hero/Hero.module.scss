@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 150px;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
  
 }
@@ -190,14 +190,14 @@
 /*Hero right*/
 .hero__right {
   display: flex;
-  margin-left: -200px;
-  margin-bottom: -50px;
+  // padding-right: 5rem;
   justify-content: center;
 }
 
 .hero__container.hero_right {
   transform: translate(0px, 0px);
 }
+
 
 
 

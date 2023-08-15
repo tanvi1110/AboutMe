@@ -54,7 +54,7 @@ const Skills = () => {
           style={{
             transform: hoverHero.transform,
           }}
-            className={styles["div_img"]}
+            className={styles["div_img"] + "w-full"}
             initial= {{ scale: 0 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 1, type: "spring", stiffness: 100}}
